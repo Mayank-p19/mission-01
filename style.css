@@ -110,6 +110,13 @@ body{
     justify-content: center;
 }
 
+/* Flex */
+.restaurants_flex_row_one,
+.restaurants_flex_row_two{
+    width: 100%;
+    grid-row: auto;
+}
+
 @media (min-width: 768px){
     .navbar{
         justify-content: space-between;
