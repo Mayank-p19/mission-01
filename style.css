@@ -156,6 +156,91 @@ body{
     height: 200px;
 }
 
+.update_container{
+    width: 100%;
+    text-align: center;
+}
+
+.update_input_button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.update_text{
+    font-size: 25px;
+    color: #333;
+}
+
+.update_form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.input_email{
+    padding: 6px;
+    font-size: 12px;
+    border: none;
+    border-radius: 2px;
+    width: 150px;
+    box-sizing: border-box;
+}
+
+.update_button{
+    padding: 5px 15px;
+    font-size: 14px;
+    border: none;
+    border-radius: 2px;
+    background-image: linear-gradient(
+        to right,
+        #ff512f 0%,
+        #dd2476 51%,
+        #ff512f 100%
+    );
+    color: white;
+    cursor: pointer;
+}
+
+.update_image_text{
+    background-image: url("assets/restaurant4.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 40px 20px;
+    border-radius: 6px;
+    color: white;
+    font-size: 12px;
+}
+
+.quote_text{
+    margin: 0;
+}
+
+.footer{
+    width: 100%;
+    max-width: 300px;
+    background-color: linear-gradient(to right, #ff5f6d, #ffc371);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo{
+    margin-bottom: 20px;
+}
+
+.footer-links a{
+    margin-left: 0;
+    margin-bottom: 10px;
+    font: 1.2em;
+}
+
 @media (min-width: 768px){
     .navbar{
         justify-content: space-between;
@@ -219,6 +304,20 @@ body{
     }
     .restaurants_flex{
         width: 100%;
+    }
+
+    .update_image_text{
+        background-image: url("assets/restaurant4.jpg");
+        background-size: cover;
+        background-position: center;
+        padding: 120px 70px;
+        border-radius: 6px;
+        color: white;
+        font-size: 25px;
+    }
+    
+    .quote_text{
+        margin: 0;
     }
 }
 
